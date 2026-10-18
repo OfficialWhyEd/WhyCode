@@ -236,8 +236,8 @@ La progettazione completa sta in `docs\`. Indice e stato in `README.md`.
 | `docs\SPEC-05-OTTIMIZZAZIONE.md` | Ottimizzazione con misura: protocollo, regole, report | 1243 |
 | `docs\SPEC-06-MEMORIA.md` | Memoria: schede linguaggio, KB che cresce | 1167 |
 | `docs\SPEC-07-MOTORE-WHYLOCALLM.md` | Motore: ruoli del modello, prompt, fallback | 989 |
-| `docs\SPEC-08-FONDAZIONI-FORMALI.md` | Fondazioni: teoremi, invarianti, statistica di "notevole" | 475 |
-| `docs\SPEC-09-ALGORITMI-CRITICI.md` | Algoritmi in pseudocodice, test obbligatori, complessita' | 559 |
+| `docs\SPEC-08-FONDAZIONI-FORMALI.md` | Fondazioni: teoremi, invarianti, statistica di "notevole" | 481 |
+| `docs\SPEC-09-ALGORITMI-CRITICI.md` | Algoritmi in pseudocodice, test obbligatori, complessita' | 561 |
 | `docs\PIANO-IMPLEMENTAZIONE.md` | Piano: stack Node+TS, moduli, fasi, rischi, comandi | 855 |
 
 ---

@@ -107,7 +107,7 @@ Ordine di lettura consigliato: `PROGETTO.md` (la visione), poi
 
 | Documento | Righe | Contenuto |
 |---|---|---|
-| `PROGETTO.md` | 241 | visione, parole di Whyed, stato dell'arte |
+| `PROGETTO.md` | 255 | visione, parole di Whyed, stato dell'arte |
 | `docs\SPEC-01-KERNEL.md` | 686 | grammatica, 9 concetti, tipi, errori, dialetti |
 | `docs\SPEC-02-COMPRENSIONE.md` | 1176 | studiare al momento: tree-sitter, inferenza, UAST |
 | `docs\SPEC-03-QUANTICO.md` | 1132 | superposizione, collasso, registro, replay |
@@ -115,8 +115,8 @@ Ordine di lettura consigliato: `PROGETTO.md` (la visione), poi
 | `docs\SPEC-05-OTTIMIZZAZIONE.md` | 1243 | misura, protocollo, report before/after |
 | `docs\SPEC-06-MEMORIA.md` | 1167 | schede linguaggio, knowledge base che cresce |
 | `docs\SPEC-07-MOTORE-WHYLOCALLM.md` | 989 | ruoli del modello, prompt, fallback |
-| `docs\SPEC-08-FONDAZIONI-FORMALI.md` | 475 | teoremi, invarianti, statistica di "notevole" |
-| `docs\SPEC-09-ALGORITMI-CRITICI.md` | 559 | algoritmi in pseudocodice con test obbligatori |
+| `docs\SPEC-08-FONDAZIONI-FORMALI.md` | 481 | teoremi, invarianti, statistica di "notevole" |
+| `docs\SPEC-09-ALGORITMI-CRITICI.md` | 561 | algoritmi in pseudocodice con test obbligatori |
 | `docs\PIANO-IMPLEMENTAZIONE.md` | 855 | stack, moduli, fasi F0-F5, rischi |
 | `docs\FORMATI.md` | 281 | formati su disco, 15 etichette UAST, esempi |
 
