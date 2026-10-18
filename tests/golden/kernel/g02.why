@@ -1,0 +1,5 @@
+# inizio
+versione 1
+funzione saluta() {
+  ritorna "ciao"
+}

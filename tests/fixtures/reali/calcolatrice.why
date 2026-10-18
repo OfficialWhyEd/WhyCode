@@ -1,0 +1,63 @@
+versione 1
+
+# La calcolatrice di casa: quattro operazioni, media e controlli.
+
+vincoli {
+  dominio: "numeri interi e decimali"
+  divisione_per_zero: "errore"
+  stile: repo_ospite
+}
+
+uscita {
+  nome: "calcolatrice"
+  motto: "fatta in casa"
+}
+
+funzione somma(a: numero, b: numero) -> numero {
+  ritorna a + b
+}
+
+funzione sottrai(a: numero, b: numero) -> numero {
+  ritorna a - b
+}
+
+funzione moltiplica(a: numero, b: numero) -> numero {
+  ritorna a * b
+}
+
+funzione dividi(a: numero, b: numero) -> numero {
+  se b uguale 0 {
+    ritorna 0
+  }
+  ritorna a / b
+}
+
+funzione media(numeri: lista di numero) -> numero {
+  variabile totale = 0
+  variabile quanti = 0
+  per ogni n in numeri {
+    totale = totale + n
+    quanti = quanti + 1
+  }
+  se quanti uguale 0 {
+    ritorna 0
+  }
+  ritorna totale / quanti
+}
+
+test somma_semplice {
+  atteso somma(2, 3) uguale 5
+}
+
+test divisione_per_zero {
+  atteso dividi(7, 0) uguale 0
+  verifica dividi(9, 3) uguale 3
+}
+
+test media_di_lista {
+  dato valori = [2, 4, 6]
+  atteso media(valori) uguale 4
+  atteso media([]) uguale 0
+}
+
+# Fine della calcolatrice.

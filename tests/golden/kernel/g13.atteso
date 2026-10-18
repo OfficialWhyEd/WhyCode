@@ -1,0 +1,13 @@
+usa dialetto diamante
+
+dialetto diamante {
+  aggiunge tipo Diamante
+  aggiunge blocco formato
+  usa solo il kernel
+}
+
+tipo Rubino
+
+funzione crea(d: Diamante) -> Rubino {
+  ritorna
+}

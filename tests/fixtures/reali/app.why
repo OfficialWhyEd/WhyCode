@@ -1,0 +1,22 @@
+versione 1
+
+# La scheda della biblioteca: unisce due moduli importati.
+
+importa prestito_di da "prestiti.why"
+importa titolo_pulito da "catalogo.why"
+importa quanti da "catalogo.why"
+
+funzione scheda(titolo: testo, giorni: numero) -> testo {
+  ritorna titolo_pulito(titolo) + " (" + prestito_di(giorni) + ")"
+}
+
+test scheda_completa {
+  atteso scheda("Favole", 10) uguale "Favole (normale)"
+  dato molti = ["uno", "due", "tre"]
+  atteso quanti(molti) uguale 3
+}
+
+test prestiti_brevi {
+  atteso prestito_di(3) uguale "corto"
+  atteso prestito_di(90) uguale "lungo"
+}

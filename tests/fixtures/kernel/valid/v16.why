@@ -1,0 +1,7 @@
+intento configurazione {
+  dato limiti: mappa di testo a numero = {"max": 10, "min": 1}
+
+  test limiti_pronti {
+    verifica limiti diverso niente
+  }
+}

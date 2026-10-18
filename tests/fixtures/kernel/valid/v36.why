@@ -1,0 +1,8 @@
+importa utilita da "esempi/utilita.why"
+
+effetto scrivi(testo) -> niente
+
+funzione eco(parola: testo) -> testo {
+  scrivi(parola)
+  ritorna parola
+}

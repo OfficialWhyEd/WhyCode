@@ -1,0 +1,9 @@
+funzione conto_fino(n: numero) -> numero {
+  variabile i = 1
+  variabile totale = 0
+  mentre i <= n {
+    totale = totale + i
+    i = i + 1
+  }
+  ritorna totale
+}

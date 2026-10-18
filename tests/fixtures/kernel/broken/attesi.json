@@ -1,0 +1,52 @@
+{
+  "b01.why": {
+    "codice": "K-001",
+    "riga": 2,
+    "colonna": 13
+  },
+  "b02.why": {
+    "codice": "K-002",
+    "riga": 3,
+    "colonna": 1
+  },
+  "b03.why": {
+    "codice": "K-003",
+    "riga": 3,
+    "colonna": 1
+  },
+  "b04.why": {
+    "codice": "K-004",
+    "riga": 2,
+    "colonna": 12
+  },
+  "b05.why": {
+    "codice": "K-004",
+    "riga": 2,
+    "colonna": 17
+  },
+  "b06.why": {
+    "codice": "K-005",
+    "riga": 1,
+    "colonna": 10
+  },
+  "b07.why": {
+    "codice": "K-118",
+    "riga": 1,
+    "colonna": 10
+  },
+  "b08.why": {
+    "codice": "K-001",
+    "riga": 2,
+    "colonna": 3
+  },
+  "b09.why": {
+    "codice": "K-001",
+    "riga": 1,
+    "colonna": 12
+  },
+  "b10.why": {
+    "codice": "K-002",
+    "riga": 4,
+    "colonna": 1
+  }
+}

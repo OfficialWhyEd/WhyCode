@@ -1,0 +1,3 @@
+funzione calcola(a: numero, b: numero) -> numero {
+  ritorna (a + b) * (a - b) / 2
+}

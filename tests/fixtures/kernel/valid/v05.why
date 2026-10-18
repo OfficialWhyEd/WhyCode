@@ -1,0 +1,9 @@
+intento calcolo {
+  funzione doppio(x: numero) -> numero {
+    ritorna x * 2
+  }
+
+  test doppio_funziona {
+    atteso doppio(2) uguale 4
+  }
+}

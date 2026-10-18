@@ -1,0 +1,8 @@
+intento soldi {
+  dato prezzo = 3.50
+  variabile resto: numero = 0.50
+
+  test soldi_pronti {
+    verifica prezzo > resto
+  }
+}

@@ -1,0 +1,3 @@
+funzione saluta(nome: testo) {
+  nome
+}

@@ -1,0 +1,3 @@
+funzione righe() -> testo {
+  ritorna "prima\nseconda\ttab \"virgolette\" e barra \\"
+}

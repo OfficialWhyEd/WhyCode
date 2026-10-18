@@ -1,0 +1,3 @@
+funzione perché(n: numero) -> numero {
+  ritorna n
+}

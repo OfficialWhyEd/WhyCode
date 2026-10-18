@@ -1,0 +1,3 @@
+funzione punti() -> mappa di testo a numero {
+  ritorna {"uno": 1, "due": 2}
+}

@@ -1,0 +1,15 @@
+versione 1
+
+# Il catalogo della biblioteca: nomi puliti e conteggi.
+
+funzione titolo_pulito(titolo: testo) -> testo {
+  ritorna titolo
+}
+
+funzione quanti(elenco: lista di testo) -> numero {
+  variabile conto = 0
+  per ogni libro in elenco {
+    conto = conto + 1
+  }
+  ritorna conto
+}

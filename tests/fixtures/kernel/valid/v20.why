@@ -1,0 +1,3 @@
+funzione negativo(x: numero) -> numero {
+  ritorna -x
+}

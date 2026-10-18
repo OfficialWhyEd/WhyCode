@@ -1,0 +1,3 @@
+funzione vuoti() -> lista di numero {
+  ritorna []
+}

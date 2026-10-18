@@ -1,0 +1,30 @@
+versione 1
+
+# intento completo
+intento completa {
+  descrizione "esempio con tutto dentro"
+
+  dato versione_minima: numero = 1
+
+  variabile stato = "pronto"
+
+  funzione saluta(nome: testo) -> testo {
+    ritorna nome
+  }
+
+  funzione conta(numeri: lista di numero) -> numero {
+    variabile totale = 0
+    per ogni n in numeri {
+      totale = totale + n
+    }
+    ritorna totale
+  }
+
+  effetto stampa(testo) -> niente
+
+  test conta_bene {
+    atteso conta([1, 2, 3]) uguale 6
+  }
+
+  vincolo versione_minima > 0
+}

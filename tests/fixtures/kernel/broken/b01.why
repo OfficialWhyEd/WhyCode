@@ -1,0 +1,3 @@
+funzione f() -> numero {
+  ritorna 1 @ 2
+}

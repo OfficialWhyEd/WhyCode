@@ -1,0 +1,8 @@
+funzione ciclo(parole: lista di testo) {
+  per ogni parola in parole {
+    se parola uguale "" {
+      chiudi
+    }
+    # altra roba
+  }
+}

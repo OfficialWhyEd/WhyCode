@@ -1,0 +1,30 @@
+{
+  "name": "whycode",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "WhyCode: il linguaggio che studia i linguaggi al momento (WhyStocastic + WhyQuantum).",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test \"build/tests/**/*.test.js\"",
+    "test:unit": "npm run build && node --test \"build/tests/unit/**/*.test.js\"",
+    "test:integrazione": "npm run build && node --test \"build/tests/integrazione/**/*.test.js\"",
+    "test:e2e": "npm run build && node --test \"build/tests/e2e/**/*.test.js\"",
+    "golden:verifica": "node build/tools/golden.js verifica",
+    "golden:aggiorna": "node build/tools/golden.js aggiorna",
+    "stato": "powershell -File scripts/stato.ps1",
+    "collaudo": "powershell -File scripts/collaudo.ps1",
+    "whycode": "node build/tools/whycode.js"
+  },
+  "dependencies": {
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}

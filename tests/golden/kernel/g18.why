@@ -1,0 +1,4 @@
+funzione svuota() -> lista di numero {
+  variabile risultato: lista di numero = []
+  ritorna risultato
+}

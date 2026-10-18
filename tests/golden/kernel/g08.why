@@ -1,0 +1,5 @@
+effetto stampa(testo) -> niente
+
+funzione benvenuto(nome: testo) {
+  stampa(nome)
+}

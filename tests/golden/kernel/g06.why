@@ -1,0 +1,9 @@
+funzione segno(x: numero) -> testo {
+  se x > 0 {
+    ritorna "positivo"
+  } altrimenti se x < 0 {
+    ritorna "negativo"
+  } altrimenti {
+    ritorna "zero"
+  }
+}

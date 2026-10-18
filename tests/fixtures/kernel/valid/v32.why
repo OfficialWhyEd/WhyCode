@@ -1,0 +1,9 @@
+funzione lunga(x: testo) -> numero {
+  ritorna 1
+}
+
+test misura {
+  dato r = lunga("ciao")
+  verifica r > 0
+  atteso r uguale 1
+}

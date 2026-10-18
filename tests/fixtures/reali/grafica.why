@@ -1,0 +1,34 @@
+versione 1
+
+# Un dialetto grafico: tipi opachi del dominio e un blocco nuovo.
+
+usa dialetto grafico
+
+dialetto grafico {
+  usa solo il kernel
+  aggiunge tipo Colore
+  aggiunge blocco disegna_rettangolo
+}
+
+effetto disegna_rettangolo(x: numero, y: numero, largo: numero, alto: numero, tinta: Colore)
+
+funzione copia(tinta: Colore) -> Colore {
+  ritorna tinta
+}
+
+funzione larghezza_totale(largo: numero, margini: numero) -> numero {
+  ritorna largo + margini * 2
+}
+
+funzione spessore(alto: numero, righe: numero) -> numero {
+  se righe uguale 0 {
+    ritorna alto
+  }
+  ritorna alto / righe
+}
+
+test misure {
+  atteso larghezza_totale(10, 2) uguale 14
+  atteso spessore(20, 4) uguale 5
+  verifica spessore(20, 0) uguale 20
+}

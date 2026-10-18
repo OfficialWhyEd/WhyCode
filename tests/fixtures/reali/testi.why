@@ -1,0 +1,65 @@
+versione 1
+
+# Piccoli ferri del mestiere per i testi.
+
+funzione ripeti(frase: testo, volte: numero) -> testo {
+  variabile fuori = ""
+  variabile i = 0
+  mentre i < volte {
+    fuori = fuori + frase
+    i = i + 1
+  }
+  ritorna fuori
+}
+
+funzione grida(frase: testo) -> testo {
+  ritorna frase + "!"
+}
+
+funzione sono_uguali(primo: testo, secondo: testo) -> booleano {
+  ritorna primo uguale secondo
+}
+
+funzione elenco_corto(nomi: lista di testo) -> testo {
+  variabile fuori = ""
+  per ogni nome in nomi {
+    se fuori uguale "" {
+      fuori = nome
+    } altrimenti {
+      fuori = fuori + ", " + nome
+    }
+  }
+  ritorna fuori
+}
+
+funzione primo_nome(persone: lista di testo, cercato: testo) -> testo {
+  variabile trovato = ""
+  per ogni persona in persone {
+    se persona uguale cercato {
+      trovato = persona
+      chiudi
+    }
+  }
+  ritorna trovato
+}
+
+test ripeti_funziona {
+  atteso ripeti("ab", 3) uguale "ababab"
+  atteso ripeti("x", 0) uguale ""
+}
+
+test elenco_unisce {
+  dato nomi = ["ana", "bruno"]
+  atteso elenco_corto(nomi) uguale "ana, bruno"
+}
+
+test trova_il_primo {
+  dato persone = ["ada", "ugo", "ida"]
+  atteso primo_nome(persone, "ugo") uguale "ugo"
+  atteso primo_nome(persone, "nessuno") uguale ""
+}
+
+test confronto_onesto {
+  verifica sono_uguali("ciao", "ciao")
+  verifica non sono_uguali("ciao", "addio")
+}

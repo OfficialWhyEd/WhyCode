@@ -1,0 +1,7 @@
+funzione due() -> numero {
+  ritorna 2
+}
+
+funzione quattro() -> numero {
+  ritorna due() + due()
+}

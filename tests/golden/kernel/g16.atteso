@@ -1,0 +1,21 @@
+funzione prova(x: numero) -> booleano {
+  se x uguale 1 {
+    ritorna vero
+  }
+  se x diverso 2 {
+    ritorna vero
+  }
+  se x < 3 {
+    ritorna vero
+  }
+  se x > 4 {
+    ritorna vero
+  }
+  se x <= 5 {
+    ritorna vero
+  }
+  se x >= 6 {
+    ritorna vero
+  }
+  ritorna falso
+}

@@ -1,0 +1,29 @@
+versione 1
+
+# Le spese di casa, raccontate come intento.
+
+intento spese_di_casa {
+  descrizione "tenere il conto delle spese mensili di una famiglia"
+
+  dato categorie = ["affitto", "spesa", "bollette", "svago"]
+
+  variabile totale = 0
+
+  funzione aggiungi(importo: numero) -> numero {
+    totale = totale + importo
+    ritorna totale
+  }
+
+  funzione quanto_manca(budget: numero) -> numero {
+    se budget > totale {
+      ritorna budget - totale
+    }
+    ritorna 0
+  }
+
+  vincolo totale >= 0
+
+  test parte_da_zero {
+    atteso totale uguale 0
+  }
+}

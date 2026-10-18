@@ -1,0 +1,11 @@
+funzione classifica(x: numero) -> testo {
+  se x > 10 {
+    se x > 100 {
+      ritorna "enorme"
+    } altrimenti {
+      ritorna "grande"
+    }
+  } altrimenti {
+    ritorna "piccolo"
+  }
+}

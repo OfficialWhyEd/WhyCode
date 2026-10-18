@@ -1,0 +1,13 @@
+versione 1
+
+# Quanto dura un prestito, detto in parole.
+
+funzione prestito_di(giorni: numero) -> testo {
+  se giorni <= 7 {
+    ritorna "corto"
+  } altrimenti se giorni <= 30 {
+    ritorna "normale"
+  } altrimenti {
+    ritorna "lungo"
+  }
+}

@@ -1,0 +1,9 @@
+versione 1
+
+intento saluto {
+  dato lingua: testo = "italiano"
+
+  funzione saluta(nome: testo) -> testo {
+    ritorna nome
+  }
+}

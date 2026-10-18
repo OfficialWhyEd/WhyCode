@@ -1,0 +1,11 @@
+uscita {
+  codice
+}
+
+intento piccolo {
+  descrizione "un intento minimo"
+}
+
+funzione identita(x: numero) -> numero {
+  ritorna x
+}

@@ -1,0 +1,3 @@
+funzione pronto(a: booleano, b: booleano) -> booleano {
+  ritorna a e non b o a
+}

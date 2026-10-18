@@ -1,0 +1,7 @@
+funzione strada() -> numero {
+  # primo passo
+  variabile x = 1
+  # secondo passo
+  x = x + 1
+  ritorna x
+}

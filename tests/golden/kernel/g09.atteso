@@ -1,0 +1,5 @@
+intento mondo {
+  descrizione "stampa cose nel mondo di fuori"
+  effetto stampa(testo) -> niente
+  vincolo 2 > 1
+}
